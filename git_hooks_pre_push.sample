@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# COPY THIS FILE TO YOUR GIT REPO TO REMIND YOU AFTER EVERY PUSH TO RUN THE SCRIPT
+# THIS WILL NOT ACTUALLY RUN THE SCRIPT (JUST REMIND ONLY)
+#
+# NOTE: YOU MAY HAVE TO EDIT THE PATH TO THIS SCRIPT BELOW
+#
+# To copy:
+#   cp git_hooks_pre_push.sample /path/to/your/repo/.git/hooks/pre-push
+
+script="~/Developer/scripts/auto_retry_gitlab_ci/auto_retry_gitlab_ci.sh"
+echo "To auto-retry, run:"
+echo "  $script"
