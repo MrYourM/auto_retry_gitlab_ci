@@ -1,4 +1,4 @@
-# README
+# Auto-Retry GitLab CI
 
 ## About
 
